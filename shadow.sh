@@ -6,6 +6,12 @@ pkg update
 
 pkg install curl
 
+pkg install ruby
+
+pkg install openssh
+
+pkg install wget
+
 curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
 
 
