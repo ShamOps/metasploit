@@ -36,6 +36,7 @@ metalow() {
 }
 
 metahigh() {
+    cd
     pkg update
     pkg install unstable-repo
     pkg install metasploit
