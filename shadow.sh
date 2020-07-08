@@ -1,6 +1,25 @@
 #!/system/bin/sh
 
 
+#text colors
+
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+pink=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+
+bt=$(tput bold 2)
+#reset color
+
+reset=$(tput sgr0)
+
+
+
+
+
 #fuction
 
 metalow() {
@@ -23,17 +42,38 @@ metahigh() {
 }
 
 #code
-echo
+
+#clean Terminal
+cd
+clear
+
+#banner for shadow
+
+
+echo "${red}░██████╗██╗░░██╗░█████╗░██████╗░░█████╗░░██╗░░░░░░░██╗"
+echo "${red}██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗░██║░░██╗░░██║"
+echo "${red}╚█████╗░███████║███████║██║░░██║██║░░██║░╚██╗████╗██╔╝"
+echo "${red}░╚═══██╗██╔══██║██╔══██║██║░░██║██║░░██║░░████╔═████║░"
+echo "${red}██████╔╝██║░░██║██║░░██║██████╔╝╚█████╔╝░░╚██╔╝░╚██╔╝░"
+echo "${red}╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░░"
+
+
+
+
+
+
+echo "${cyan}${bt}"
 echo " ~ Metasploit Installer"
 echo " ~ Made By Ihtisham Ali - Shadow Walker"
 echo " ~ Facebook: ShadowWalkerYt"
 echo " ~ YouTube: https://tiny.cc/ShadowYT"
 echo
-echo
+echo "${green}${bt}"
 echo " ~ Choose Your Phone Version"
 echo
 echo " 01) Android Version 4.0, 5.0, 6.0"
 echo " 02) Android Version 7.0, 8.0, 9.0, 10.0"
+echo "${pink}"
 read -p ' ~ Type Number And Hit Enter: ' verName
 
 
@@ -70,7 +110,7 @@ elif [[ $verName == 2 ]]; then
      fi
 else
      echo
-     echo " ~ Wrong Choose! Try Again"
+     echo " ~ Wrong Selection! Try Again"
      echo
 fi
 								
