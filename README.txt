@@ -1,20 +1,39 @@
+## Shadow
 
-This Script Will Install Metasploit In Your Termux
+**A Toolkit For Termux Hackers**
 
-Script Is Created By Shadow Walker
+**This Script Will Automatically Install Metasploit From The Official Server On Your Termux Without Any Errors.**
 
-Method Of Installation:
+***Don't Copy Without Giving Me Credit! Script Kiddie xD***
 
-pkg install git
+**Show Some Support By Subscribing My Channel** [SUBSCRIBE](https://youtube.com/ShadowWalkerYT)
 
-git clone https://github.com/shadowwalker005/metasploit
 
-cd metasploit
+# INSTALLATION:
 
-chmod +x shadow.sh
+> pkg update
 
-./shadow.sh
+> pkg install git
 
-In Case Of Any Errors Or Issues Please Let Me Know :)
+> git clone https://github.com/shadowwalker005/metasploit
 
-- ShadowWalker
+>  cd metasploit && chmod 775 *
+
+> bash shadow.sh
+
+
+
+## Developed By:
+- Ihtisham Ali aka Shadow Walker
+## Links:
+- YouTube Channel: [Shadow Walker](https://youtube.com/ShadowWalkerYT)
+- Facebook: [S. Walker](https://facebook.com/ShadowWalkerYT)
+- Blogspot: [ShadowHub]( https://shadowhub.blogspot.com)
+
+
+
+**In Case Of Any Issues Please Feel Free To Contact Me**
+
+**Also Check Out My YouTube Channel:** [Shadow Walker](https://youtube.com/ShadowWalkerYT)
+
+
