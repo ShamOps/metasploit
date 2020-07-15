@@ -1,6 +1,6 @@
-## Shadow
+## Metasploit
 
-**A Toolkit For Termux Hackers**
+**Metasploit Installer**
 
 **This Script Will Automatically Install Metasploit From The Official Server On Your Termux Without Any Errors.**
 
