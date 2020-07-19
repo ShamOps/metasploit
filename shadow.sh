@@ -65,9 +65,12 @@ echo "${red}╚═════╝░╚═╝░░╚═╝╚═╝░░╚�
 
 echo "${cyan}${bt}"
 echo " ~ Metasploit Installer"
-echo " ~ Made By Ihtisham Ali - Shadow Walker"
-echo " ~ Facebook: ShadowWalkerYt"
-echo " ~ YouTube: https://tiny.cc/ShadowYT"
+echo " ~ Written By Ihtisham Ali - Shadow Walker"
+echo " ~ Facebook: ShadowWalkerYT"
+echo " ~ YouTube: Shadow Walker"
+echo " ~ Telegram: ShadowWalkerYT"
+echo " ~ GitHub: ShadowWalker005"
+echo " ~ Blogspot: shadowhub.blogspot.com"
 echo
 echo "${green}${bt}"
 echo " ~ Choose Your Phone Version"
